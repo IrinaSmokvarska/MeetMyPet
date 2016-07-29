@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23CA60914BA9E493CF33EDA0 /* Pods_MeetMyPet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7508DA2434050D8D647608 /* Pods_MeetMyPet.framework */; };
+		7B3C76DC1D395B5000DC7309 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B3C76D81D395B5000DC7309 /* NotoSans-Bold.ttf */; };
+		7B3C76DD1D395B5000DC7309 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B3C76D91D395B5000DC7309 /* NotoSans-BoldItalic.ttf */; };
+		7B3C76DE1D395B5000DC7309 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B3C76DA1D395B5000DC7309 /* NotoSans-Italic.ttf */; };
+		7B3C76DF1D395B5000DC7309 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B3C76DB1D395B5000DC7309 /* NotoSans-Regular.ttf */; };
+		7B3C76FF1D3C06C900DC7309 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C76FE1D3C06C900DC7309 /* MaterialView.swift */; };
+		7B3C77021D3C071A00DC7309 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C77011D3C071A00DC7309 /* Constants.swift */; };
+		7B3C77041D3C0D6700DC7309 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C77031D3C0D6700DC7309 /* MaterialButton.swift */; };
+		7B3C77061D3C121F00DC7309 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C77051D3C121F00DC7309 /* MaterialTextField.swift */; };
+		7BC1A7D31D49348C00E55210 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1A7D21D49348C00E55210 /* DataService.swift */; };
+		7BC1A7D81D4A523E00E55210 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1A7D71D4A523E00E55210 /* FeedVC.swift */; };
+		7BC1A7DA1D4A52C100E55210 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1A7D91D4A52C100E55210 /* PostCell.swift */; };
+		7BFC80BC1D39173D005D7791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFC80BB1D39173D005D7791 /* AppDelegate.swift */; };
+		7BFC80BE1D39173D005D7791 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFC80BD1D39173D005D7791 /* ViewController.swift */; };
+		7BFC80C11D39173D005D7791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC80BF1D39173D005D7791 /* Main.storyboard */; };
+		7BFC80C31D39173D005D7791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC80C21D39173D005D7791 /* Assets.xcassets */; };
+		7BFC80C61D39173D005D7791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC80C41D39173D005D7791 /* LaunchScreen.storyboard */; };
+		7BFC80CE1D391773005D7791 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BFC80CD1D391773005D7791 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B3C76D81D395B5000DC7309 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		7B3C76D91D395B5000DC7309 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7B3C76DA1D395B5000DC7309 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		7B3C76DB1D395B5000DC7309 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		7B3C76FE1D3C06C900DC7309 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		7B3C77011D3C071A00DC7309 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7B3C77031D3C0D6700DC7309 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		7B3C77051D3C121F00DC7309 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		7B88EFEC1D3D59D4003ED27E /* MeetMyPet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeetMyPet-Bridging-Header.h"; sourceTree = "<group>"; };
+		7BC1A7D21D49348C00E55210 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		7BC1A7D71D4A523E00E55210 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		7BC1A7D91D4A52C100E55210 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		7BFC80B81D39173D005D7791 /* MeetMyPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMyPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFC80BB1D39173D005D7791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BFC80BD1D39173D005D7791 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BFC80C01D39173D005D7791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BFC80C21D39173D005D7791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BFC80C51D39173D005D7791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BFC80C71D39173D005D7791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFC80CD1D391773005D7791 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A87057BAF5E386B714104EFD /* Pods-MeetMyPet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetMyPet.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetMyPet/Pods-MeetMyPet.release.xcconfig"; sourceTree = "<group>"; };
+		C375F4A2A654228F5C1A4C0F /* Pods-MeetMyPet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetMyPet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetMyPet/Pods-MeetMyPet.debug.xcconfig"; sourceTree = "<group>"; };
+		EA7508DA2434050D8D647608 /* Pods_MeetMyPet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetMyPet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BFC80B51D39173D005D7791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CA60914BA9E493CF33EDA0 /* Pods_MeetMyPet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06A23297D62B101609BC2855 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA7508DA2434050D8D647608 /* Pods_MeetMyPet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		161B2F4D9AE6C9C679F78FC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C375F4A2A654228F5C1A4C0F /* Pods-MeetMyPet.debug.xcconfig */,
+				A87057BAF5E386B714104EFD /* Pods-MeetMyPet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B3C76D41D395B2600DC7309 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7BFC80BD1D39173D005D7791 /* ViewController.swift */,
+				7BC1A7D71D4A523E00E55210 /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7B3C76D51D395B2B00DC7309 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B3C76FE1D3C06C900DC7309 /* MaterialView.swift */,
+				7B3C77031D3C0D6700DC7309 /* MaterialButton.swift */,
+				7B3C77051D3C121F00DC7309 /* MaterialTextField.swift */,
+				7BC1A7D91D4A52C100E55210 /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7B3C76D61D395B2F00DC7309 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7B3C76D71D395B3300DC7309 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B3C76D81D395B5000DC7309 /* NotoSans-Bold.ttf */,
+				7B3C76D91D395B5000DC7309 /* NotoSans-BoldItalic.ttf */,
+				7B3C76DA1D395B5000DC7309 /* NotoSans-Italic.ttf */,
+				7B3C76DB1D395B5000DC7309 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7B3C77001D3C070C00DC7309 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7B3C77011D3C071A00DC7309 /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		7BC1A7D11D49347C00E55210 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7BC1A7D21D49348C00E55210 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		7BFC80AF1D39173D005D7791 = {
+			isa = PBXGroup;
+			children = (
+				7BFC80BA1D39173D005D7791 /* MeetMyPet */,
+				7BFC80B91D39173D005D7791 /* Products */,
+				161B2F4D9AE6C9C679F78FC9 /* Pods */,
+				06A23297D62B101609BC2855 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BFC80B91D39173D005D7791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BFC80B81D39173D005D7791 /* MeetMyPet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BFC80BA1D39173D005D7791 /* MeetMyPet */ = {
+			isa = PBXGroup;
+			children = (
+				7BC1A7D11D49347C00E55210 /* Services */,
+				7B3C77001D3C070C00DC7309 /* Utilities */,
+				7B3C76D71D395B3300DC7309 /* Resources */,
+				7B3C76D61D395B2F00DC7309 /* Model */,
+				7B3C76D51D395B2B00DC7309 /* View */,
+				7B3C76D41D395B2600DC7309 /* Controller */,
+				7BFC80BB1D39173D005D7791 /* AppDelegate.swift */,
+				7BFC80BF1D39173D005D7791 /* Main.storyboard */,
+				7BFC80C21D39173D005D7791 /* Assets.xcassets */,
+				7BFC80C41D39173D005D7791 /* LaunchScreen.storyboard */,
+				7BFC80C71D39173D005D7791 /* Info.plist */,
+				7BFC80CD1D391773005D7791 /* GoogleService-Info.plist */,
+				7B88EFEC1D3D59D4003ED27E /* MeetMyPet-Bridging-Header.h */,
+			);
+			path = MeetMyPet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BFC80B71D39173D005D7791 /* MeetMyPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFC80CA1D39173D005D7791 /* Build configuration list for PBXNativeTarget "MeetMyPet" */;
+			buildPhases = (
+				C9B7218738D37E25D5A6FC22 /* [CP] Check Pods Manifest.lock */,
+				7BFC80B41D39173D005D7791 /* Sources */,
+				7BFC80B51D39173D005D7791 /* Frameworks */,
+				7BFC80B61D39173D005D7791 /* Resources */,
+				72AFA566BB175F63C1080498 /* [CP] Embed Pods Frameworks */,
+				263C9807EA287696A4C330BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetMyPet;
+			productName = MeetMyPet;
+			productReference = 7BFC80B81D39173D005D7791 /* MeetMyPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BFC80B01D39173D005D7791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Irina Smokvarska";
+				TargetAttributes = {
+					7BFC80B71D39173D005D7791 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7BFC80B31D39173D005D7791 /* Build configuration list for PBXProject "MeetMyPet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BFC80AF1D39173D005D7791;
+			productRefGroup = 7BFC80B91D39173D005D7791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BFC80B71D39173D005D7791 /* MeetMyPet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BFC80B61D39173D005D7791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3C76DD1D395B5000DC7309 /* NotoSans-BoldItalic.ttf in Resources */,
+				7BFC80C61D39173D005D7791 /* LaunchScreen.storyboard in Resources */,
+				7BFC80CE1D391773005D7791 /* GoogleService-Info.plist in Resources */,
+				7BFC80C31D39173D005D7791 /* Assets.xcassets in Resources */,
+				7B3C76DF1D395B5000DC7309 /* NotoSans-Regular.ttf in Resources */,
+				7B3C76DE1D395B5000DC7309 /* NotoSans-Italic.ttf in Resources */,
+				7B3C76DC1D395B5000DC7309 /* NotoSans-Bold.ttf in Resources */,
+				7BFC80C11D39173D005D7791 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		263C9807EA287696A4C330BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeetMyPet/Pods-MeetMyPet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72AFA566BB175F63C1080498 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeetMyPet/Pods-MeetMyPet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B7218738D37E25D5A6FC22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BFC80B41D39173D005D7791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3C77061D3C121F00DC7309 /* MaterialTextField.swift in Sources */,
+				7BC1A7D31D49348C00E55210 /* DataService.swift in Sources */,
+				7B3C76FF1D3C06C900DC7309 /* MaterialView.swift in Sources */,
+				7BFC80BE1D39173D005D7791 /* ViewController.swift in Sources */,
+				7BC1A7D81D4A523E00E55210 /* FeedVC.swift in Sources */,
+				7BC1A7DA1D4A52C100E55210 /* PostCell.swift in Sources */,
+				7BFC80BC1D39173D005D7791 /* AppDelegate.swift in Sources */,
+				7B3C77021D3C071A00DC7309 /* Constants.swift in Sources */,
+				7B3C77041D3C0D6700DC7309 /* MaterialButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BFC80BF1D39173D005D7791 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BFC80C01D39173D005D7791 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BFC80C41D39173D005D7791 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BFC80C51D39173D005D7791 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BFC80C81D39173D005D7791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BFC80C91D39173D005D7791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BFC80CB1D39173D005D7791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C375F4A2A654228F5C1A4C0F /* Pods-MeetMyPet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = MeetMyPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyIrin.MeetMyPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MeetMyPet/MeetMyPet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BFC80CC1D39173D005D7791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87057BAF5E386B714104EFD /* Pods-MeetMyPet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = MeetMyPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyIrin.MeetMyPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MeetMyPet/MeetMyPet-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BFC80B31D39173D005D7791 /* Build configuration list for PBXProject "MeetMyPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFC80C81D39173D005D7791 /* Debug */,
+				7BFC80C91D39173D005D7791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFC80CA1D39173D005D7791 /* Build configuration list for PBXNativeTarget "MeetMyPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFC80CB1D39173D005D7791 /* Debug */,
+				7BFC80CC1D39173D005D7791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BFC80B01D39173D005D7791 /* Project object */;
+}
