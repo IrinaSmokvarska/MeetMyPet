@@ -324,6 +324,7 @@
                                         <connections>
                                             <outlet property="petImg" destination="Xih-5x-3tu" id="YPf-TM-TlM"/>
                                             <outlet property="profileImg" destination="IuO-om-mSI" id="k1H-u2-Nm6"/>
+                                            <outlet property="textView" destination="3Mv-Or-xOH" id="fJ1-ZN-LeL"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

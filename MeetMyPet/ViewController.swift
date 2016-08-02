@@ -49,7 +49,9 @@ class ViewController: UIViewController {
                         print("Login failed. \(error)")
                     } else {
                         print("Logged In! \(user)")
-                        NSUserDefaults.standardUserDefaults().setValue(user?.uid, forKey: KEY_UID)
+                        let userdict = ["provider": "facebook"]
+                        DataService.ds.saveFacebookUser(user!.uid, user: userdict)
+                        NSUserDefaults.standardUserDefaults().setValue(user!.uid, forKey: KEY_UID)
                         self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
                     }
                 }
@@ -64,10 +66,12 @@ class ViewController: UIViewController {
             FIRAuth.auth()?.createUserWithEmail(email, password: pwd) { (user, error) in
                 
                 if error != nil {
+                    
                     print("Sign up failed. \(error?.localizedDescription)")
                     self.showErrorAlert("Error", msg: (error?.localizedDescription)!)
                 } else {
                     print("Signed Up! \(user)")
+                    DataService.ds.saveUser(email, password: pwd)
                     NSUserDefaults.standardUserDefaults().setValue(user?.uid, forKey: KEY_UID)
                     self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
                 }

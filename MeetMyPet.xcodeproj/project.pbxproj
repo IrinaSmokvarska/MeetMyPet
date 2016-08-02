@@ -16,6 +16,9 @@
 		7B3C77021D3C071A00DC7309 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C77011D3C071A00DC7309 /* Constants.swift */; };
 		7B3C77041D3C0D6700DC7309 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C77031D3C0D6700DC7309 /* MaterialButton.swift */; };
 		7B3C77061D3C121F00DC7309 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C77051D3C121F00DC7309 /* MaterialTextField.swift */; };
+		7B9849701D5106640044EDBF /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98496F1D5106640044EDBF /* Users.swift */; };
+		7B9849721D5106860044EDBF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9849711D5106860044EDBF /* Post.swift */; };
+		7B9849741D51083F0044EDBF /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9849731D51083F0044EDBF /* DataModel.swift */; };
 		7BC1A7D31D49348C00E55210 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1A7D21D49348C00E55210 /* DataService.swift */; };
 		7BC1A7D81D4A523E00E55210 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1A7D71D4A523E00E55210 /* FeedVC.swift */; };
 		7BC1A7DA1D4A52C100E55210 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1A7D91D4A52C100E55210 /* PostCell.swift */; };
@@ -37,6 +40,9 @@
 		7B3C77031D3C0D6700DC7309 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		7B3C77051D3C121F00DC7309 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 		7B88EFEC1D3D59D4003ED27E /* MeetMyPet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeetMyPet-Bridging-Header.h"; sourceTree = "<group>"; };
+		7B98496F1D5106640044EDBF /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		7B9849711D5106860044EDBF /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		7B9849731D51083F0044EDBF /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		7BC1A7D21D49348C00E55210 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		7BC1A7D71D4A523E00E55210 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		7BC1A7D91D4A52C100E55210 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
@@ -85,7 +91,6 @@
 		7B3C76D41D395B2600DC7309 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7BFC80BD1D39173D005D7791 /* ViewController.swift */,
 				7BC1A7D71D4A523E00E55210 /* FeedVC.swift */,
 			);
 			name = Controller;
@@ -105,6 +110,9 @@
 		7B3C76D61D395B2F00DC7309 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7B98496F1D5106640044EDBF /* Users.swift */,
+				7B9849711D5106860044EDBF /* Post.swift */,
+				7B9849731D51083F0044EDBF /* DataModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -157,6 +165,7 @@
 		7BFC80BA1D39173D005D7791 /* MeetMyPet */ = {
 			isa = PBXGroup;
 			children = (
+				7BFC80BD1D39173D005D7791 /* ViewController.swift */,
 				7BC1A7D11D49347C00E55210 /* Services */,
 				7B3C77001D3C070C00DC7309 /* Utilities */,
 				7B3C76D71D395B3300DC7309 /* Resources */,
@@ -306,6 +315,9 @@
 				7B3C76FF1D3C06C900DC7309 /* MaterialView.swift in Sources */,
 				7BFC80BE1D39173D005D7791 /* ViewController.swift in Sources */,
 				7BC1A7D81D4A523E00E55210 /* FeedVC.swift in Sources */,
+				7B9849741D51083F0044EDBF /* DataModel.swift in Sources */,
+				7B9849701D5106640044EDBF /* Users.swift in Sources */,
+				7B9849721D5106860044EDBF /* Post.swift in Sources */,
 				7BC1A7DA1D4A52C100E55210 /* PostCell.swift in Sources */,
 				7BFC80BC1D39173D005D7791 /* AppDelegate.swift in Sources */,
 				7B3C77021D3C071A00DC7309 /* Constants.swift in Sources */,

@@ -17,6 +17,10 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
         tableView.delegate = self
         tableView.dataSource = self
+        
+        DataService.ds.getPostsFromDB { 
+            self.tableView.reloadData()
+        }
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -24,13 +28,19 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return DataModel.sharedModel.posts.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        return tableView.dequeueReusableCellWithIdentifier("PostCell") as! PostCell
+        if let cell = tableView.dequeueReusableCellWithIdentifier("PostCell") as? PostCell {
+            
+            let post = DataModel.sharedModel.posts[indexPath.row] as! Post
+            cell.configureCell(post)
+            return cell
+        } else {
+            return PostCell()
+        }
+        
     }
-
-
 
 }
